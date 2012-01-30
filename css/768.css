@@ -1,0 +1,67 @@
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+	#header-container,
+	#main aside{
+		-webkit-box-shadow:0 5px 10px #aaa;
+		   -moz-box-shadow:0 5px 10px #aaa;
+		        box-shadow:0 5px 10px #aaa;
+	}
+
+/* ============
+    WIDE: Menu
+   ============ */
+	
+	#title{
+		float:left;
+	}
+
+	nav{
+		float:right;
+		width:38%;
+	}
+
+/* ============
+    WIDE: Main
+   ============ */
+
+	#main article{
+		float:left;
+		width:57%;
+	}
+		
+	#main aside{
+		float:right;
+		width:28%;
+	}
+	
+	aside#portrait {
+		display: block;
+		position: relative;
+		left: 200px;
+		top: -200px;
+		float: none;
+		border-top: none;
+		background-image: url(../portrait.jpg);
+		background-repeat:no-repeat;
+		
+		padding: 0px;
+		
+		width: 100px;
+		height: 100px;
+		
+		
+	}
+	
+	#bio {
+		display: block;
+		width: 170px;
+		position: relative;
+		left: 200px;
+		top: -185px;
+		font-size: 0.80em;
+	}
+}

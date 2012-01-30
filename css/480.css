@@ -1,0 +1,42 @@
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+	
+	nav a{
+		float:left;
+		width:27%;
+		margin:0 1.7%;
+		padding:25px 2%;
+		margin-bottom:0;
+	}
+	
+	nav li:first-child a{ margin-left:0;  }
+	nav li:last-child  a{ margin-right:0; }
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+	/*nav ul li{
+		display:inline;
+	}*/	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
+	
+	nav#side ul li a{
+	float: none;
+	width:27%;
+	margin:3px 1.7%;
+	padding:25px 2%;
+	margin-bottom:0;
+	display:block;
+	color:white;
+
+	/*text-align:center;
+	text-decoration:none;
+	font-weight:bold;*/
+	}
+}
